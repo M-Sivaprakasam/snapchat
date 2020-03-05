@@ -1,0 +1,68 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+	background: white;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0px;
+}
+
+#logo {
+	display: flex;
+	width: 40px;
+	height: 40px;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	background-color: yellow;
+}
+
+.image {
+	display: flex;
+	background-color: yellow;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.image1 {
+	display: flex;
+	width: 300px;
+	height: 300px;
+	padding: 0 0 90px 0;
+}
+
+.watch {
+	display: flex;
+	justify-content: center;
+	background-color: yellow;
+	align-items: center;
+	color: black;
+}
+
+.sec1 {
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	padding: 20px;
+
+}
+
+.per {
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	padding: 20px;
+
+}
